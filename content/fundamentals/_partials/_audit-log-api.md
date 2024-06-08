@@ -10,3 +10,7 @@ To get audit logs from the Cloudflare API, send a [GET request](/api/operations/
 We recommending using the API for downloading historical audit log data.
 
 To maintain Audit Logs query performance, the Audit Logs API was modified on 2019-06-30 to return records with a maximum age of 18 months.
+
+{{<Aside type="note">}}
+You can use the API token `Account` `Account Settings` to access Audit logs. 
+{{</Aside>}}
